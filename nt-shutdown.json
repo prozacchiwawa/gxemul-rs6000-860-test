@@ -1,0 +1,23 @@
+{
+  "example": "down-example.png",
+  "test": "captures/down.png",
+  "steps": [
+    {
+      "crop": {
+        "x1": 277,
+        "y1": 166,
+        "x2": 404,
+        "y2": 184
+      }
+    },
+    {
+      "compare": {
+        "only-color": {
+          "red": 252,
+          "green": 252,
+          "blue": 252
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+until 38000000
+cont
+
+kbd 24 f0 24 1c f0 1c 2c f0 2c 1c f0 1c 32 f0 32 3c f0 3c 34 f0 34
+until 3f000000
+cont
+
+kbd 2a f0 2a
+until 40000000
+cont
+
+kbd 59 4c f0 4c f0 59 5a f0 5a
+until 43000000
+cont
+
+kbd 23 f0 23 43 f0 43 2d f0 2d 5a f0 5a
+until 46000000
+cont
+
+ss captures/vdsk.png
+quit now

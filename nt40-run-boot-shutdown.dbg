@@ -33,5 +33,5 @@ kbd 1c 9c
 until 158000000
 cont
 
-ss down.png
+ss captures/down.png
 quit now

@@ -1,0 +1,7 @@
+{
+  "example": "vdsk-example.png",
+  "test": "captures/vdsk.png",
+  "steps": [
+    { "compare": { } }
+  ]
+}
