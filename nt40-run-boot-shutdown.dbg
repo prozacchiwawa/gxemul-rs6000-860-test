@@ -1,0 +1,37 @@
+until 60000000
+cont
+kbd 1c 9c
+
+until c0000000
+cont
+
+;; ctrl-alt-del
+kbd 1d 38 e0 53 9d b8 e0 d3
+until d0000000
+cont
+
+;; password
+kbd 14 94 12 92 1f 9f 14 94 1c 9c
+until f0000000
+cont
+
+;; ;; ctrl-alt-del
+kbd 1d 38 e0 53 9d b8 e0 d3
+until 120000000
+cont
+
+;; tab tab
+kbd 0f 8f 0f 8f
+until 128000000
+cont
+
+kbd 1c 9c
+until 130000000
+cont
+
+kbd 1c 9c
+until 158000000
+cont
+
+ss down.png
+quit now
