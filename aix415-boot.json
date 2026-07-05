@@ -1,0 +1,17 @@
+{
+  "example": "aix-help-viewer-example.png",
+  "test": "captures/aix-help-viewer.png",
+  "steps": [
+    {
+      "crop": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 604,
+        "y2": 64
+      }
+    },
+    {
+      "compare": { }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+until a0300000
+cont
+
+ss captures/aix-help-viewer.png
+quit now
